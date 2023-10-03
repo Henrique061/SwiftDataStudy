@@ -59,3 +59,13 @@ struct ContentView: View {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
 }
+
+class vm {
+    let container: ModelContainer
+    let context: ModelContext
+    
+    init() throws {
+        self.container = try ModelContainer(for: Schema([Item.self]))
+        self.context = ModelContext(self.container)
+    }
+}
