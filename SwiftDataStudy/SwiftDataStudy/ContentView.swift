@@ -18,6 +18,7 @@ struct ContentView: View {
                 ForEach(items) { item in
                     NavigationLink {
                         Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        Text("Gay number: \(item.gayNumber ? "true" : "false")")
                     } label: {
                         Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
                     }
@@ -41,7 +42,7 @@ struct ContentView: View {
 
     private func addItem() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
+            let newItem = Item(timestamp: Date(), gayNumber: true)
             modelContext.insert(newItem)
         }
     }
@@ -58,14 +59,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .modelContainer(for: Item.self, inMemory: true)
-}
-
-class vm {
-    let container: ModelContainer
-    let context: ModelContext
-    
-    init() throws {
-        self.container = try ModelContainer(for: Schema([Item.self]))
-        self.context = ModelContext(self.container)
-    }
 }

@@ -8,6 +8,8 @@
 import SwiftUI
 import SwiftData
 
+typealias Item = ItemV3.Item
+
 @main
 struct SwiftDataStudyApp: App {
     var sharedModelContainer: ModelContainer = {
@@ -17,7 +19,7 @@ struct SwiftDataStudyApp: App {
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
         do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+            return try ModelContainer(for: schema, migrationPlan: ItemPlan.self)
         } catch {
             fatalError("Could not create ModelContainer: \(error)")
         }
