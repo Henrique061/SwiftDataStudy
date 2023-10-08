@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		911CF8F32ACB2D2F00521072 /* SwiftDataStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF8F22ACB2D2F00521072 /* SwiftDataStudyApp.swift */; };
+		9108CB032AD1EDDB00A5C8E1 /* ProvaComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9108CB022AD1EDDB00A5C8E1 /* ProvaComponent.swift */; };
 		911CF8F52ACB2D2F00521072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF8F42ACB2D2F00521072 /* ContentView.swift */; };
 		911CF8F72ACB2D2F00521072 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF8F62ACB2D2F00521072 /* Item.swift */; };
 		911CF8F92ACB2D3000521072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911CF8F82ACB2D3000521072 /* Assets.xcassets */; };
@@ -15,6 +15,14 @@
 		911CF9062ACB2D3100521072 /* SwiftDataStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF9052ACB2D3100521072 /* SwiftDataStudyTests.swift */; };
 		911CF9102ACB2D3100521072 /* SwiftDataStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF90F2ACB2D3100521072 /* SwiftDataStudyUITests.swift */; };
 		911CF9122ACB2D3100521072 /* SwiftDataStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF9112ACB2D3100521072 /* SwiftDataStudyUITestsLaunchTests.swift */; };
+		912F18F42AD1F2F000F95FFC /* MinhasProvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F18F32AD1F2F000F95FFC /* MinhasProvasView.swift */; };
+		912F18F62AD1F38700F95FFC /* MinhasProvasSchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F18F52AD1F38700F95FFC /* MinhasProvasSchemaV1.swift */; };
+		912F18F82AD1F4DD00F95FFC /* MinhasProvasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F18F72AD1F4DD00F95FFC /* MinhasProvasApp.swift */; };
+		912F18FA2AD1F7BF00F95FFC /* NovaProvaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F18F92AD1F7BF00F95FFC /* NovaProvaView.swift */; };
+		912F18FC2AD2031E00F95FFC /* MinhasProvasSchemaV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F18FB2AD2031E00F95FFC /* MinhasProvasSchemaV2.swift */; };
+		912F18FE2AD2034500F95FFC /* MinhasProvasSchemaV3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F18FD2AD2034500F95FFC /* MinhasProvasSchemaV3.swift */; };
+		912F19002AD2035600F95FFC /* MinhasProvasSchemaV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F18FF2AD2035600F95FFC /* MinhasProvasSchemaV4.swift */; };
+		912F19022AD20EBC00F95FFC /* ProvaMigrationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F19012AD20EBC00F95FFC /* ProvaMigrationPlan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9108CB022AD1EDDB00A5C8E1 /* ProvaComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaComponent.swift; sourceTree = "<group>"; };
 		911CF8EF2ACB2D2F00521072 /* SwiftDataStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		911CF8F22ACB2D2F00521072 /* SwiftDataStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataStudyApp.swift; sourceTree = "<group>"; };
 		911CF8F42ACB2D2F00521072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		911CF8F62ACB2D2F00521072 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		911CF8F82ACB2D3000521072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +54,14 @@
 		911CF90B2ACB2D3100521072 /* SwiftDataStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911CF90F2ACB2D3100521072 /* SwiftDataStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataStudyUITests.swift; sourceTree = "<group>"; };
 		911CF9112ACB2D3100521072 /* SwiftDataStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		912F18F32AD1F2F000F95FFC /* MinhasProvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasProvasView.swift; sourceTree = "<group>"; };
+		912F18F52AD1F38700F95FFC /* MinhasProvasSchemaV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasProvasSchemaV1.swift; sourceTree = "<group>"; };
+		912F18F72AD1F4DD00F95FFC /* MinhasProvasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasProvasApp.swift; sourceTree = "<group>"; };
+		912F18F92AD1F7BF00F95FFC /* NovaProvaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaProvaView.swift; sourceTree = "<group>"; };
+		912F18FB2AD2031E00F95FFC /* MinhasProvasSchemaV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasProvasSchemaV2.swift; sourceTree = "<group>"; };
+		912F18FD2AD2034500F95FFC /* MinhasProvasSchemaV3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasProvasSchemaV3.swift; sourceTree = "<group>"; };
+		912F18FF2AD2035600F95FFC /* MinhasProvasSchemaV4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasProvasSchemaV4.swift; sourceTree = "<group>"; };
+		912F19012AD20EBC00F95FFC /* ProvaMigrationPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaMigrationPlan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +89,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9108CAFE2AD1DFD400A5C8E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				912F18F52AD1F38700F95FFC /* MinhasProvasSchemaV1.swift */,
+				912F18FB2AD2031E00F95FFC /* MinhasProvasSchemaV2.swift */,
+				912F18FD2AD2034500F95FFC /* MinhasProvasSchemaV3.swift */,
+				912F18FF2AD2035600F95FFC /* MinhasProvasSchemaV4.swift */,
+				912F19012AD20EBC00F95FFC /* ProvaMigrationPlan.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9108CB012AD1EDB900A5C8E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9108CB022AD1EDDB00A5C8E1 /* ProvaComponent.swift */,
+				912F18F32AD1F2F000F95FFC /* MinhasProvasView.swift */,
+				912F18F92AD1F7BF00F95FFC /* NovaProvaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		911CF8E62ACB2D2F00521072 = {
 			isa = PBXGroup;
 			children = (
@@ -96,11 +134,12 @@
 		911CF8F12ACB2D2F00521072 /* SwiftDataStudy */ = {
 			isa = PBXGroup;
 			children = (
-				911CF8F22ACB2D2F00521072 /* SwiftDataStudyApp.swift */,
-				911CF8F42ACB2D2F00521072 /* ContentView.swift */,
-				911CF8F62ACB2D2F00521072 /* Item.swift */,
+				9108CAFE2AD1DFD400A5C8E1 /* Model */,
+				9108CB012AD1EDB900A5C8E1 /* View */,
+				912F18F72AD1F4DD00F95FFC /* MinhasProvasApp.swift */,
 				911CF8F82ACB2D3000521072 /* Assets.xcassets */,
 				911CF8FA2ACB2D3000521072 /* Preview Content */,
+				9169A0662AD08B1E00F76379 /* Tests */,
 			);
 			path = SwiftDataStudy;
 			sourceTree = "<group>";
@@ -128,6 +167,15 @@
 				911CF9112ACB2D3100521072 /* SwiftDataStudyUITestsLaunchTests.swift */,
 			);
 			path = SwiftDataStudyUITests;
+			sourceTree = "<group>";
+		};
+		9169A0662AD08B1E00F76379 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				911CF8F42ACB2D2F00521072 /* ContentView.swift */,
+				911CF8F62ACB2D2F00521072 /* Item.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,9 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912F18FA2AD1F7BF00F95FFC /* NovaProvaView.swift in Sources */,
+				912F19002AD2035600F95FFC /* MinhasProvasSchemaV4.swift in Sources */,
+				912F18FC2AD2031E00F95FFC /* MinhasProvasSchemaV2.swift in Sources */,
+				912F18F62AD1F38700F95FFC /* MinhasProvasSchemaV1.swift in Sources */,
+				912F18FE2AD2034500F95FFC /* MinhasProvasSchemaV3.swift in Sources */,
+				912F18F82AD1F4DD00F95FFC /* MinhasProvasApp.swift in Sources */,
 				911CF8F52ACB2D2F00521072 /* ContentView.swift in Sources */,
 				911CF8F72ACB2D2F00521072 /* Item.swift in Sources */,
-				911CF8F32ACB2D2F00521072 /* SwiftDataStudyApp.swift in Sources */,
+				9108CB032AD1EDDB00A5C8E1 /* ProvaComponent.swift in Sources */,
+				912F18F42AD1F2F000F95FFC /* MinhasProvasView.swift in Sources */,
+				912F19022AD20EBC00F95FFC /* ProvaMigrationPlan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
