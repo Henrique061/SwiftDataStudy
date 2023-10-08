@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+// Componente de cada elemento da lista de provas
 struct ProvaComponent : View {
     var prova: Prova
     

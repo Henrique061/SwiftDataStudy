@@ -9,6 +9,7 @@ import Foundation
 import SwiftData
 import SwiftUI
 
+// Tela de criação de uma nova prova
 struct NovaProvaView : View {
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss

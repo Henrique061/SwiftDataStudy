@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9108CB032AD1EDDB00A5C8E1 /* ProvaComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9108CB022AD1EDDB00A5C8E1 /* ProvaComponent.swift */; };
-		911CF8F52ACB2D2F00521072 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF8F42ACB2D2F00521072 /* ContentView.swift */; };
-		911CF8F72ACB2D2F00521072 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF8F62ACB2D2F00521072 /* Item.swift */; };
 		911CF8F92ACB2D3000521072 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911CF8F82ACB2D3000521072 /* Assets.xcassets */; };
 		911CF8FC2ACB2D3000521072 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911CF8FB2ACB2D3000521072 /* Preview Assets.xcassets */; };
 		911CF9062ACB2D3100521072 /* SwiftDataStudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911CF9052ACB2D3100521072 /* SwiftDataStudyTests.swift */; };
@@ -45,8 +43,6 @@
 /* Begin PBXFileReference section */
 		9108CB022AD1EDDB00A5C8E1 /* ProvaComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaComponent.swift; sourceTree = "<group>"; };
 		911CF8EF2ACB2D2F00521072 /* SwiftDataStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		911CF8F42ACB2D2F00521072 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		911CF8F62ACB2D2F00521072 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		911CF8F82ACB2D3000521072 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		911CF8FB2ACB2D3000521072 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		911CF9012ACB2D3000521072 /* SwiftDataStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,7 +135,6 @@
 				912F18F72AD1F4DD00F95FFC /* MinhasProvasApp.swift */,
 				911CF8F82ACB2D3000521072 /* Assets.xcassets */,
 				911CF8FA2ACB2D3000521072 /* Preview Content */,
-				9169A0662AD08B1E00F76379 /* Tests */,
 			);
 			path = SwiftDataStudy;
 			sourceTree = "<group>";
@@ -167,15 +162,6 @@
 				911CF9112ACB2D3100521072 /* SwiftDataStudyUITestsLaunchTests.swift */,
 			);
 			path = SwiftDataStudyUITests;
-			sourceTree = "<group>";
-		};
-		9169A0662AD08B1E00F76379 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				911CF8F42ACB2D2F00521072 /* ContentView.swift */,
-				911CF8F62ACB2D2F00521072 /* Item.swift */,
-			);
-			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,8 +300,6 @@
 				912F18F62AD1F38700F95FFC /* MinhasProvasSchemaV1.swift in Sources */,
 				912F18FE2AD2034500F95FFC /* MinhasProvasSchemaV3.swift in Sources */,
 				912F18F82AD1F4DD00F95FFC /* MinhasProvasApp.swift in Sources */,
-				911CF8F52ACB2D2F00521072 /* ContentView.swift in Sources */,
-				911CF8F72ACB2D2F00521072 /* Item.swift in Sources */,
 				9108CB032AD1EDDB00A5C8E1 /* ProvaComponent.swift in Sources */,
 				912F18F42AD1F2F000F95FFC /* MinhasProvasView.swift in Sources */,
 				912F19022AD20EBC00F95FFC /* ProvaMigrationPlan.swift in Sources */,

@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 import SwiftData
 
+// A tela que mostra a lista de provas
 struct MinhasProvasView : View {
     @Environment(\.modelContext) private var modelContext
     @Query var provas: [Prova]
